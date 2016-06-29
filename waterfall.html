@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS实现瀑布流</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		#main{
+		position: relative;
+		/*块的定位用绝对定位*/
+		}
+		.box{
+			padding: 15px 0 0 15px;
+			/*offsetHeight只能取到包括padding在内的高度，不包括margin*/
+			float: left;
+		}
+		.pic{
+			padding: 10px;
+			border: 1px solid #ccc; 
+			box-shadow:0 0 4px #ccc; 
+		}
+		.pic img{
+			width: 165px;
+		}
+	</style>
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div class="box">
+			<div class="pic">
+				<img src="img/1.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/2.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/3.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/4.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/5.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/6.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/7.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/8.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/9.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/10.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/11.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/12.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/13.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/14.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/15.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/16.jpg">
+			</div>
+		</div>
+		<div class="box">
+			<div class="pic">
+				<img src="img/17.jpg">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
